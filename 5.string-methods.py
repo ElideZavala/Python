@@ -18,16 +18,19 @@ print(address[-4])
 # [ : ] notation
 # Nos permite acceder a un rango de caracteres
 print('------------------------------------')
-print(address[0:3])
-print(address[-7:-1])
-print(address[0:])
-print(address[:7])
-print(address[:])
+print(address[0:3])  # [start:stop] # Output = Tab
+print(address[-7:-1])  # Output = Tabasc
+print(address[0:])  # Output = Tabasco
+print(address[:7])  # Output = Tabasco
+print(address[:])   # Output = Tabasco
 
 country = "USA"
 city = "New york"
 full_address = country + ", " + city
-print(full_address)
+
+# 4- Concatenation ->>>> Formatted Strigs
+full_address = f"{country}, {city}"  # Output = USA, New york
+print(full_address, '2')
 
 # 5- upper()
 # Nos permite convertir un string a mayusculas
@@ -49,7 +52,7 @@ print(full_address.title())
 # Nos permite eliminar espacios en blanco
 print('------------------------------------')
 job = "     Developer     "
-print(job.strip())
+print(job.strip())  # Elimina espacios en blanco a la derecha y a la izquierda
 print(job.rstrip())  # Elimina espacios en blanco a la derecha
 print(job.lstrip())  # Elimina espacios en blanco a la izquierda
 
@@ -59,7 +62,7 @@ print(job.lstrip())  # Elimina espacios en blanco a la izquierda
 print('------------------------------------')
 print(address.find("o"))
 print(address.find("a"))
-print(address.find("r"))
+print(address.find("r"))  # Regresa -1
 print(address.find("T"))
 
 # 10- replace()
