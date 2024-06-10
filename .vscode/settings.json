@@ -3,6 +3,7 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python.formatting.provider": "none",
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.wordWrap": "on"
+    "editor.fontFamily": "Victor Mono",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 15
 }
