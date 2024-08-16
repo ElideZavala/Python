@@ -42,5 +42,5 @@ class Jane(Person, John):
 
 
 jane = Jane()
-jane.runner()
-jane.jogger()
+jane.runner()  # Runner
+jane.jogger()  # jogger
