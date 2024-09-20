@@ -28,4 +28,4 @@ divide(2, 5)  # 0.4
 print("🐛 ", )
 divide(20, 5)  # 4.0
 print("🐛 ", )
-divide(790, 0)  # cannot divide by zero
+divide(79, 0)  # cannot divide by zero
