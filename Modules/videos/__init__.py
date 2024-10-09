@@ -1,4 +1,5 @@
 # ---------------------------------------------------------
 # --------------**## Creating Sub Packages ##**--------------
 
-from social_media.videos import user_videos
+# Creating a sub-package called 'clips' inside the 'videos' package
+
