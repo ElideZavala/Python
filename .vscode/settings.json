@@ -5,5 +5,12 @@
     "python.formatting.provider": "none",
     "editor.fontFamily": "Victor Mono",
     "editor.wordWrap": "on",
-    "editor.fontSize": 15
+    "editor.fontSize": 15,
+    "background.editor": {
+        "useFront": true,
+        "images": [
+          "https://user-images.githubusercontent.com/9987486/40583670-d6478c9e-61c5-11e8-9551-6b55eacc7b8d.png",
+          "https://user-images.githubusercontent.com/9987486/40583671-d676c6e4-61c5-11e8-94cb-34ec4a12fa01.png"
+        ]
+      }
 }
