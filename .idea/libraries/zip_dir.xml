@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="zip_dir">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zip_dir/py.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip_dir/all.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
