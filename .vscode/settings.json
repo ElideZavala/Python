@@ -5,6 +5,11 @@
     "python.formatting.provider": "none",
     "editor.fontFamily": "Victor Mono",
     "editor.wordWrap": "on",
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.5,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
     "editor.fontSize": 15,
     "background.editor": {
         "useFront": true,
