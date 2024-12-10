@@ -3,8 +3,10 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python.formatting.provider": "none",
-    "editor.fontFamily": "Victor Mono",
-    "editor.wordWrap": "on",
+    // "editor.fontFamily": "Victor Mono",
+    "editor.fontFamily": "Cascadia Code",
+    // "editor.fontWeight": "400",
+    // "editor.wordWrap": "on",
     "editor.lineHeight": 1.5,
     "editor.fontLigatures": true,
     "editor.letterSpacing": 0.5,
@@ -14,7 +16,7 @@
     "background.editor": {
         "useFront": true,
         "images": [
-          "https://user-images.githubusercontent.com/9987486/40583670-d6478c9e-61c5-11e8-9551-6b55eacc7b8d.png",
+          "../../../../Downloads/Vaporwave-4K-Wallpapers.jpg",
           "https://user-images.githubusercontent.com/9987486/40583671-d676c6e4-61c5-11e8-94cb-34ec4a12fa01.png"
         ]
       }
