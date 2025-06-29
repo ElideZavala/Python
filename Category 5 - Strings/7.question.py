@@ -2,3 +2,8 @@
 
 str = "Katty-is-a-data-scientist"
 
+paragraphs = str.split("-")
+print("🐛 text", paragraphs)
+
+for paragraph in paragraphs:
+    print(paragraph, end=" " ) 
