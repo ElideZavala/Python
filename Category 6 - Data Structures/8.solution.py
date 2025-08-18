@@ -7,4 +7,4 @@ for item in speed.values():
     if item not in speed_list:
         speed_list.append(item)
 
-print(speed_list)
+print(speed_list) # [47, 52, 44, 53, 54]
