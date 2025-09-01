@@ -8,6 +8,14 @@ sampleDict = {
 
 }
 
-# Keys to extract
 
+# new_dictionary = {
+#     sampleDict.get("name"),
+#     sampleDict.get("salary")
+# }
 keys = ["name", "salary"]
+
+new_dictionary = {
+    k: sampleDict[k] for k in keys
+}
+print('new_dictionary: ', new_dictionary)
