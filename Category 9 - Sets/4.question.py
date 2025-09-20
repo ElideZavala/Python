@@ -2,3 +2,5 @@
 
 set_one = {10, 20, 30}
 set_two = {20, 40, 50}
+
+print(set_one.difference(set_two)) # {10, 30} 
