@@ -5,5 +5,5 @@ tuple_two = (99, 88)
 
 tuple_one, tuple_two = tuple_two, tuple_one
 
-print(tuple_one)
-print(tuple_two)
+print(tuple_one) # (99, 88)
+print(tuple_two) # (11, 22)
