@@ -13,5 +13,5 @@ else:
     print("Date 2 is greater")
     delta = date_2 - date_1
 
-print("Number of Days:", delta.days)
-print("Number of Days:", delta)
+print("Number of Days:", delta.days) # 5683
+print("Number of Days:", delta) #  5683 days, 0:00:00
