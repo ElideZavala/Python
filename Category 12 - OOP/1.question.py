@@ -7,4 +7,3 @@ class Vehicule:
 
 mi_vehiculo = Vehicule(220, 90)
 print(f"mi carro corre a {mi_vehiculo.max_speed} con un kilometraje de {mi_vehiculo.mileage}")
-        
