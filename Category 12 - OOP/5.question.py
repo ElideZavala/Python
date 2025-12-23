@@ -6,6 +6,8 @@ Define a class attribute ”color” with a default value white. I.e., Every Veh
 
 class Vehicle:
 
+    color = "white"
+
     def __init__(self, name, max_speed, mileage):
         self.name = name
         self.max_speed = max_speed
@@ -17,4 +19,10 @@ class Bus(Vehicle):
 
 
 class Car(Vehicle):
-    pass
+    pass                         
+
+mycar = Car("Jabali", 250, 200000)
+print(f"Car {mycar.color, mycar.max_speed, mycar.mileage}")
+
+myBus = Bus("Mamut", 120, 250000)
+print(f"Car {myBus.color, myBus.max_speed, myBus.mileage}")
