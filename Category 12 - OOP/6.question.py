@@ -21,8 +21,13 @@ class Vehicle:
 
 
 class Bus(Vehicle):
-    pass
+    def fare(self): 
+        amount = super().fare()
+        amount += amount * 10 / 100
 
+        return amount
+ 
 
 School_bus = Bus("School Volvo", 12, 50)
-print("Total Bus fare is:", School_bus.fare())
+amount_bus = School_bus.fare()
+print(amount_bus)

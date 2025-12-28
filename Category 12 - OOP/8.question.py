@@ -13,3 +13,7 @@ class Bus(Vehicle):
 
 
 School_bus = Bus("School Volvo", 12, 50)
+
+print(isinstance(School_bus, Vehicle)) # True
+print(isinstance(School_bus, Bus)) # True
+

@@ -12,3 +12,4 @@ class Bus(Vehicle):
 
 
 School_bus = Bus("School Volvo", 12, 50)
+print(type(School_bus)) # <class '__main__.Bus'>

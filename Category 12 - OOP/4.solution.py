@@ -14,4 +14,4 @@ class Bus(Vehicle):
 
 
 school_bus = Bus("Bussy Bus", 100, 10)
-print(school_bus.seating_capacity())
+print(school_bus.seating_capacity()) # The seating capacity of a Bussy Bus is 50 passengers
