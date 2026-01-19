@@ -17,4 +17,4 @@ class VehicleEncoder(JSONEncoder):
 vehicle = Vehicle("Toyota Rav4", "2.5L", 32000)
 
 vehicle_json = json.dumps(vehicle, indent=4, cls=VehicleEncoder)
-print(vehicle_json)
+print(vehicle_json) # {"name": "Toyota Rav4", "engine": "2.5L", "price": 32000}
